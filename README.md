@@ -86,9 +86,13 @@
 </head>
 <body>
 
-  <header>
-    <h1>Kindred</h1>
-    <p>A private community for real connection. Built with care, privacy, and intention.</p>
+    <header>
+  <img src="Logo_Kindred_Dark.png" alt="Kindred logo"
+       style="width:96px;height:auto;margin-bottom:1rem;" />
+
+  <h1>Kindred</h1>
+  <p>A private community for real connection. Built with care, privacy, and intention.</p>
+
     <a class="cta" href="#" aria-label="Download Kindred on the App Store">Download on the App Store</a>
     <nav>
       <a href="#privacy">Privacy Policy</a>
