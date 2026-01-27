@@ -87,7 +87,8 @@
 <body>
 
     <header>
-  <img src="logo.png" style="background:red;">
+  <img src="logo.png" style="background:red; padding:10px;">
+
        style="width:96px;height:auto;margin-bottom:1rem;" />
 
   <h1>Kindred</h1>
