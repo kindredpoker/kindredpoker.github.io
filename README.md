@@ -118,7 +118,7 @@
     <div class="card">
       <h2>Contact Us</h2>
       <p>If you have questions, feedback, or support requests, reach out anytime:</p>
-      <p><strong>Email:</strong> <a href="mailto:support@yourdomain.com" style="color: var(--accent);">support@yourdomain.com</a></p>
+      <p><strong>Email:</strong> <a href="mailto:kindredpokerteam@gmail.com" style="color: var(--accent);">kindredpokerteam@gmail.com</a></p>
     </div>
   </section>
 
