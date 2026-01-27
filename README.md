@@ -87,7 +87,7 @@
 <body>
 
     <header>
-  <img src="Logo_Kindred_Dark.png" alt="Kindred logo"
+  <img src="Github Logo.png" alt="Kindred logo"
        style="width:96px;height:auto;margin-bottom:1rem;" />
 
   <h1>Kindred</h1>
