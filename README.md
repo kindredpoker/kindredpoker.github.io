@@ -6,7 +6,7 @@
   <title></title> <!-- Empty so no browser tab title shows -->
   <style>
     :root {
-      --bg: #ffffff;
+      --bg: #ffffff rgb(25,25,25);
       --card: #f9f9f9;
       --text: #111827;
       --muted: #6b7280;
