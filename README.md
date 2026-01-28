@@ -87,7 +87,7 @@
 <body>
 
     <header>
-  <img src="Github Logo.png">
+  <img src="Logo Dark.png">
 
        style="width:96px;height:auto;margin-bottom:1rem;" />
 
