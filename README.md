@@ -88,7 +88,7 @@
 <body>
 
     <header>
-  <img src="Logo Dark.png">
+  <img src="Github Logo.png">
 
 
   <p>A private community for real connection. Built with care, privacy, and intention.</p>
