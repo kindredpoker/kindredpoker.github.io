@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title> <!-- Empty so no browser tab title shows -->
+  <title> <img src="Github Logo.png" alt="Kindred Logo"></title>
   <style>
     :root {
       --bg: #ffffff;
