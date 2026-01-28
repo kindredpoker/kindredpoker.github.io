@@ -103,7 +103,7 @@
   <section id="privacy">
     <div class="card">
       <h2>Privacy Policy</h2>
-      <p><strong>Effective date:</strong> Jan 1, 2026</p>
+      <p><strong>Effective date:</strong> Jan 1st, 2026</p>
       <p>Kindred respects your privacy. This app does not collect, store, or share any personal user data.</p>
       <ul>
         <li>No account creation required</li>
