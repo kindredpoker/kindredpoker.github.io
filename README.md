@@ -15,12 +15,14 @@
       --accent: #38bdf8;
     }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: linear-gradient(180deg, #020617, var(--bg));
-      color: var(--text);
-    }
+  
+      body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
     header {
       padding: 3rem 1.5rem 2rem;
       text-align: center;
