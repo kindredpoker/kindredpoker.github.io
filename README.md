@@ -30,7 +30,7 @@
     header img {
       max-width: 120px;
       margin-bottom: 1rem;
-      display: block;
+
       margin-left: auto;
       margin-right: auto;
     }
