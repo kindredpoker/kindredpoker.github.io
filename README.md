@@ -89,8 +89,6 @@
     <header>
   <img src="Logo Dark.png">
 
-       style="width:96px;height:auto;margin-bottom:1rem;" />
-
   <h1>Kindred</h1>
   <p>A private community for real connection. Built with care, privacy, and intention.</p>
 
