@@ -90,7 +90,7 @@
     <header>
   <img src="Logo Dark.png">
 
-  <h1>Kindred</h1>
+
   <p>A private community for real connection. Built with care, privacy, and intention.</p>
 
     <a class="cta" href="#" aria-label="Download Kindred on the App Store">Download on the App Store</a>
