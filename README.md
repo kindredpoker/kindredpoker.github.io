@@ -7,7 +7,7 @@
   <meta name="description" content="Kindred – A private community for real connection." />
   <style>
     :root {
-      --bg: rgb(20, 20, 20);
+      --bg: rgb(255, 255, 255);
       --card: #111827;
       --text: #e5e7eb;
       --muted: #9ca3af;
