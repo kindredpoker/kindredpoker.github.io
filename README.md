@@ -1,10 +1,9 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kindred</title>
-  <meta name="description" content="Kindred – A private community for real connection." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title> <!-- Empty so no browser tab title shows -->
   <style>
     :root {
       --bg: #ffffff;
@@ -31,12 +30,9 @@
     header img {
       max-width: 120px;
       margin-bottom: 1rem;
-    }
-
-    header h1 {
-      font-size: 2.25rem;
-      margin-bottom: 0.5rem;
-      letter-spacing: -0.02em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     header p {
@@ -73,7 +69,7 @@
 
     nav a {
       color: var(--muted);
-      text-decoration: none;
+      text-decoration: none; /* removes blue underline */
       font-size: 1rem;
       padding: 0.5rem 0;
     }
@@ -104,7 +100,7 @@
     }
 
     p, li {
-      color: var(--text);
+      color: var(--text); /* dark text */
       line-height: 1.6;
       font-size: 1rem;
     }
@@ -120,84 +116,59 @@
 
     .divider { height: 1px; background: #e5e7eb; margin: 3rem 0; }
 
-    /* Mobile Responsive */
     @media (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
-      }
-      header p {
-        font-size: 0.95rem;
-      }
-      .cta {
-        width: 100%;
-        text-align: center;
-        padding: 1rem;
-        font-size: 1.05rem;
-      }
-      section {
-        padding: 2rem 1rem;
-      }
-      nav {
-        flex-direction: column;
-        gap: 0.75rem;
-      }
-      nav a {
-        font-size: 0.95rem;
-      }
-      .card {
-        padding: 1.5rem;
-      }
-      h2 {
-        font-size: 1.35rem;
-      }
-      p, li {
-        font-size: 0.95rem;
-      }
+      header p { font-size: 0.95rem; }
+      .cta { width: 100%; text-align: center; padding: 1rem; font-size: 1.05rem; }
+      section { padding: 2rem 1rem; }
+      nav { flex-direction: column; gap: 0.75rem; }
+      nav a { font-size: 0.95rem; }
+      .card { padding: 1.5rem; }
+      h2 { font-size: 1.35rem; }
+      p, li { font-size: 0.95rem; }
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <img src="Github Logo.png" alt="Kindred Logo" />
-    <h1>Kindred</h1>
-    <p>A private community for real connection. Built with care, privacy, and intention.</p>
-    <a class="cta" href="#" aria-label="Download Kindred on the App Store">Download on the App Store</a>
-    <nav>
-      <a href="#privacy">Privacy Policy</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<header>
+  <img src="logo.png" alt="Kindred Logo">
+  <p>A private community for real connection. Built with care, privacy, and intention.</p>
+  <a href="#" class="cta">Download on the App Store</a>
 
-  <section id="privacy">
-    <div class="card">
-      <h2>Privacy Policy</h2>
-      <p><strong>Effective date:</strong> Jan 1st, 2026</p>
-      <p>Kindred respects your privacy. This app does not collect, store, or share any personal user data.</p>
-      <ul>
-        <li>No account creation required</li>
-        <li>No tracking or analytics</li>
-        <li>No data sold or shared with third parties</li>
-      </ul>
-      <p>If this changes in the future, this policy will be updated accordingly.</p>
-    </div>
-  </section>
+  <nav>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
 
-  <section id="contact">
-    <div class="card">
-      <h2>Contact Us</h2>
-      <p>If you have questions, feedback, or support requests, reach out anytime:</p>
-      <p><strong>Email:</strong> <a href="mailto:kindredpokerteam@gmail.com" style="color: var(--accent);">kindredpokerteam@gmail.com</a></p>
-    </div>
-  </section>
+<section>
+  <div class="card">
+    <h2>Privacy Policy</h2>
+    <p>Effective date: Jan 1st, 2026</p>
+    <p>Kindred respects your privacy. This app does not collect, store, or share any personal user data.</p>
+    <ul>
+      <li>No account creation required</li>
+      <li>No tracking or analytics</li>
+      <li>No data sold or shared with third parties</li>
+    </ul>
+    <p>If this changes in the future, this policy will be updated accordingly.</p>
+  </div>
 
-  <footer>
-    © <span id="year"></span> Kindred. All rights reserved.
-  </footer>
+  <div class="card">
+    <h2>Contact Us</h2>
+    <p>If you have questions, feedback, or support requests, reach out anytime:</p>
+    <p>Email: kindredpokerteam@gmail.com</p>
+  </div>
+</section>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+<footer>
+  &copy; <span id="year"></span> Kindred. All rights reserved.
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
+
