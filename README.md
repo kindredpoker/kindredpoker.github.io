@@ -131,7 +131,7 @@
 <body>
 
 <header>
-  <img src="logo.png" alt="Kindred Logo">
+  <img src="Github Logo.png" alt="Kindred Logo">
   <p>A private community for real connection. Built with care, privacy, and intention.</p>
   <a href="#" class="cta">Download on the App Store</a>
 
