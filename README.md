@@ -3,7 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title> <!-- empty so no repo name in tab -->
+
+  <!-- Smart App Banner (iPhone only) -->
+  <meta name="apple-itunes-app" content="app-id=6758220871">
+
+  <title></title> <!-- intentionally empty -->
+
   <style>
     :root {
       --bg: #ffffff;
@@ -23,51 +28,64 @@
     }
 
     header {
-      padding: 3rem 1.5rem 2rem;
+      padding: 3rem 1.5rem 2.5rem;
       text-align: center;
     }
 
-    header img {
+    header img.logo {
       max-width: 120px;
-      display: block;
-      margin: 0 auto 1rem;
+      margin-bottom: 1rem;
     }
 
     header p {
       color: var(--muted);
       max-width: 520px;
-      margin: 0 auto 1.5rem;
+      margin: 0 auto 1.75rem;
       font-size: 1rem;
       line-height: 1.6;
     }
 
+    .cta-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
     .cta {
-      display: inline-block;
-      padding: 1rem 1.5rem;
-      border-radius: 12px;
+      padding: 1rem 1.6rem;
+      border-radius: 14px;
       background: var(--accent);
       color: #020617;
       font-weight: 700;
       text-decoration: none;
       font-size: 1.1rem;
-      transition: background 0.3s ease;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
+      box-shadow: 0 10px 20px rgba(56,189,248,0.35);
     }
 
-    .cta:hover { background: #0ea5e9; }
+    .cta:hover {
+      background: #0ea5e9;
+      transform: translateY(-2px);
+      box-shadow: 0 14px 28px rgba(56,189,248,0.45);
+    }
+
+    .app-store-badge img {
+      height: 52px;
+    }
 
     nav {
       display: flex;
       justify-content: center;
       gap: 1.5rem;
-      margin-top: 1.5rem;
       flex-wrap: wrap;
     }
 
     nav a {
       color: var(--muted);
-      text-decoration: none; /* removes blue underline */
+      text-decoration: none;
       font-size: 1rem;
-      padding: 0.5rem 0;
     }
 
     nav a:hover { color: var(--accent); }
@@ -87,8 +105,17 @@
       margin-bottom: 2rem;
     }
 
-    h2 { margin-top: 0; letter-spacing: -0.01em; font-size: 1.5rem; }
-    p, li { color: var(--text); line-height: 1.6; font-size: 1rem; }
+    h2 {
+      margin-top: 0;
+      font-size: 1.5rem;
+      letter-spacing: -0.01em;
+    }
+
+    p, li {
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+
     ul { padding-left: 1.2rem; }
 
     footer {
@@ -99,17 +126,11 @@
     }
 
     @media (max-width: 600px) {
-      header p { font-size: 0.95rem; }
-      .cta { width: 100%; text-align: center; padding: 1rem; font-size: 1.05rem; }
-      section { padding: 2rem 1rem; }
+      .cta { width: 100%; max-width: 320px; }
       nav { flex-direction: column; gap: 0.75rem; }
-      nav a { font-size: 0.95rem; }
-      .card { padding: 1.5rem; }
-      h2 { font-size: 1.35rem; }
-      p, li { font-size: 0.95rem; }
     }
 
-    /* Optional dark mode */
+    /* Dark mode */
     @media (prefers-color-scheme: dark) {
       :root {
         --bg: #111827;
@@ -121,36 +142,69 @@
     }
   </style>
 </head>
+
 <body>
 
 <header>
-  <img src="Github Logo.png" alt="Kindred Logo">
-  <p>A private community for real connection. Built with care, privacy, and intention.</p>
-  <a href="#" class="cta">Download on the App Store</a>
+  <img src="Github Logo.png" alt="Kindred Logo" class="logo">
+
+  <p>
+    A private community for real connection.
+    Built with care, privacy, and intention.
+  </p>
+
+  <div class="cta-wrapper">
+    <a
+      href="https://apps.apple.com/app/id6758220871"
+      class="cta"
+      target="_blank"
+      rel="noopener"
+    >
+      Download on the App Store
+    </a>
+
+    <a
+      href="https://apps.apple.com/app/id6758220871"
+      class="app-store-badge"
+      target="_blank"
+      rel="noopener"
+    >
+      <img
+        src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+        alt="Download on the App Store"
+      >
+    </a>
+  </div>
 
   <nav>
-    <a href="#">Privacy Policy</a>
-    <a href="#">Contact</a>
+    <a href="#privacy">Privacy Policy</a>
+    <a href="#contact">Contact</a>
   </nav>
 </header>
 
 <section>
-  <div class="card">
+  <div class="card" id="privacy">
     <h2>Privacy Policy</h2>
-    <p>Effective date: Jan 1st, 2026</p>
-    <p>Kindred respects your privacy. This app does not collect, store, or share any personal user data.</p>
+    <p>Effective date: Jan 1, 2026</p>
+    <p>
+      Kindred respects your privacy. This app does not collect,
+      store, or share any personal user data.
+    </p>
     <ul>
       <li>No account creation required</li>
       <li>No tracking or analytics</li>
-      <li>No data sold or shared with third parties</li>
+      <li>No data sold or shared</li>
     </ul>
-    <p>If this changes in the future, this policy will be updated accordingly.</p>
+    <p>This policy will be updated if practices change.</p>
   </div>
 
-  <div class="card">
+  <div class="card" id="contact">
     <h2>Contact Us</h2>
-    <p>If you have questions, feedback, or support requests, reach out anytime:</p>
-    <p>Email: kindredpokerteam@gmail.com</p>
+    <p>
+      Questions, feedback, or support?
+      Reach out anytime:
+    </p>
+    <p><strong>Email:</strong> kindredpokerteam@gmail.com</p>
   </div>
 </section>
 
@@ -159,9 +213,10 @@
 </footer>
 
 <script>
-  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById("year").textContent = new Date().getFullYear();
 </script>
 
 </body>
 </html>
+
 
