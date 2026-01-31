@@ -33,7 +33,7 @@
     }
 
     header img.logo {
-      max-width: 120px;
+      max-width: 180px;
       margin-bottom: 1rem;
     }
 
