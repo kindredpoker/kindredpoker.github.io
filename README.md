@@ -183,19 +183,37 @@
 </header>
 
 <section>
+  <!-- Updated Privacy Policy -->
   <div class="card" id="privacy">
     <h2>Privacy Policy</h2>
     <p>Effective date: Jan 1, 2026</p>
+
     <p>
-      Kindred respects your privacy. This app does not collect,
-      store, or share any personal user data.
+      Kindred respects your privacy. We do not collect, access, store,
+      or process personal data on our own servers.
     </p>
+
+    <p>
+      The app allows users to save and sync their data using
+      <strong>Apple iCloud</strong>.
+    </p>
+
     <ul>
-      <li>No account creation required</li>
-      <li>No tracking or analytics</li>
-      <li>No data sold or shared</li>
+      <li>All data is stored directly in the user’s personal iCloud account</li>
+      <li>Data is associated with the user’s Apple ID</li>
+      <li>Data is used only to sync content across the user’s devices</li>
+      <li>We do not have access to this data</li>
+      <li>No tracking, analytics, or advertising is used</li>
     </ul>
-    <p>This policy will be updated if practices change.</p>
+
+    <p>
+      Data stored in iCloud is handled according to Apple’s iCloud
+      privacy and security policies.
+    </p>
+
+    <p>
+      This policy will be updated if our data practices change.
+    </p>
   </div>
 
   <div class="card" id="contact">
@@ -218,5 +236,6 @@
 
 </body>
 </html>
+
 
 
